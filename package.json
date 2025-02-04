@@ -1,0 +1,45 @@
+{
+  "name": "jorel-starter",
+  "version": "1.0.0",
+  "description": "Quickly get started with using JorEl",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "clean": "rm -rf ./dist",
+    "rebuild": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "jorel",
+    "starter",
+    "quickstart",
+    "llm",
+    "ai"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianheine/jorel-starter.git"
+  },
+  "homepage": "https://christianheine.github.io/jorel/",
+  "bugs": {
+    "url": "https://github.com/christianheine/jorel-starter/issues"
+  },
+  "author": "Christian Heine",
+  "license": "MIT",
+  "dependencies": {
+    "jorel": "^0.9.1",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "prettier": "^3.4.2",
+    "@eslint/js": "^9.19.0",
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0",
+    "typescript-eslint": "^8.22.0"
+  }
+}
