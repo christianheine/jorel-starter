@@ -10,21 +10,33 @@ The full documentation is available at [https://christianheine.github.io/jorel/]
 
 ## How to get started
 
+### Clone the repository
+
 1. Clone this repository
 2. Run `npm install` or `yarn install`
 3. Rename the .env.example file to .env and add your API keys
 4. Start editing the `src/index.ts` file
 5. Run `npm start` or `yarn start` to run it
 
+### Degit
+
+You can also use [degit](https://github.com/Rich-Harris/degit) to quickly get started.
+
+```bash
+npx degit christianheine/jorel-starter my-jorel-project
+cd my-jorel-project
+npm install
+```
+
 ## What is included in the starter?
 
-- TypeScript configuration: Pre-configured TypeScript setup, including ts-node for running TypeScript files directly
-- ESLint and Prettier: Linting and formatting setup for consistent code style
-- dotenv: Load environment variables from a .env file
-- zod: Type-safe schema validation for LLM tool-use
-- .env.example: Example .env file with placeholders for API keys
-- .gitignore: Pre-configured .gitignore file
-- Example code: A simple example that uses JorEl to generate a response for a text prompt
+* TypeScript configuration: Pre-configured TypeScript setup, including ts-node for running TypeScript files directly
+* ESLint and Prettier: Linting and formatting setup for consistent code style
+* dotenv: Load environment variables from a .env file
+* zod: Type-safe schema validation for LLM tool-use
+* .env.example: Example .env file with placeholders for API keys
+* .gitignore: Pre-configured .gitignore file
+* Example code: A simple example that uses JorEl to generate a response for a text prompt
 
 ## License
 

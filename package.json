@@ -1,6 +1,6 @@
 {
   "name": "jorel-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Quickly get started with using JorEl",
   "main": "index.js",
   "scripts": {
@@ -27,19 +27,19 @@
   "author": "Christian Heine",
   "license": "MIT",
   "dependencies": {
-    "jorel": "^0.9.1",
-    "dotenv": "^16.4.7",
-    "zod": "^3.24.1"
+    "jorel": "0.9.5",
+    "dotenv": "16.4.7",
+    "zod": "3.24.2"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.3",
-    "eslint-config-prettier": "^10.0.1",
-    "eslint-plugin-prettier": "^5.2.3",
-    "prettier": "^3.4.2",
-    "@eslint/js": "^9.19.0",
-    "eslint": "^9.19.0",
-    "globals": "^15.14.0",
-    "typescript-eslint": "^8.22.0"
+    "typescript": "5.7.3",
+    "eslint-config-prettier": "10.0.1",
+    "eslint-plugin-prettier": "5.2.3",
+    "prettier": "3.5.1",
+    "@eslint/js": "9.20.0",
+    "eslint": "9.20.1",
+    "globals": "15.15.0",
+    "typescript-eslint": "8.24.0"
   }
 }
