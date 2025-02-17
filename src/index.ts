@@ -12,7 +12,7 @@ const main = async () => {
     logLevel: "warn",
   });
 
-  const response = await jorEl.ask("What is an LLM? In two sentences only.");
+  const response = await jorEl.text("What is an LLM? In two sentences only.");
 
   console.log(response);
 };
